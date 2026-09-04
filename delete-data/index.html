@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tideline — Requesting deletion of your data</title>
+<style>
+  :root { --ink:#16151c; --muted:#5c5b68; --rule:#dcdae2; --bg:#fff; --accent:#5457c7; }
+  * { box-sizing:border-box; }
+  body { margin:0 auto; max-width:44rem; padding:48px 24px 80px; background:var(--bg); color:var(--ink);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { border-bottom:2px solid var(--ink); padding-bottom:16px; margin-bottom:32px; }
+  h1 { font-size:28px; margin:0 0 6px; letter-spacing:-0.3px; }
+  h2 { font-size:19px; margin:36px 0 10px; letter-spacing:-0.2px; }
+  .meta { margin:0; color:var(--muted); font-size:14px; }
+  a { color:var(--accent); }
+  table { width:100%; border-collapse:collapse; margin:14px 0; font-size:15px; }
+  th, td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--rule); vertical-align:top; }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:0.6px; color:var(--muted);
+       border-bottom:1px solid var(--ink); }
+  ul { padding-left:1.2rem; }
+  li { margin:6px 0; }
+  .lede { font-size:17px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Requesting deletion of your data</h1>
+  <p class="meta">Tideline &middot; last updated 4 September 2026</p>
+</header>
+
+<p class="lede">Most of what Tideline holds is not held by anyone but you, so most of it needs no
+request at all. This page is honest about which is which.</p>
+
+<h2>Your check-ins — delete them yourself, right now</h2>
+<p>Every check-in, note, check-in type and setting lives in a database on your own device and is
+never sent to me or to anyone else. There is no account and no server copy, so there is nothing for
+me to delete and no request to make.</p>
+<ul>
+  <li><strong>One entry</strong> — open it in the app and delete it. It is gone immediately.</li>
+  <li><strong>Everything</strong> — uninstall Tideline. Android removes the app's data with it.</li>
+</ul>
+<p>If you made a backup file, that file is wherever you put it. Delete it the way you would delete
+any other file; I have no copy and no way to reach it.</p>
+
+<h2>What I can delete on request</h2>
+<table>
+  <thead>
+    <tr><th>What</th><th>Who holds it</th><th>On request</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Your purchase record — an anonymous identifier and the fact that a subscription was bought
+          or restored</td>
+      <td>RevenueCat, on my behalf</td>
+      <td>Deleted when you ask</td>
+    </tr>
+    <tr>
+      <td>Crash and freeze reports — a stack trace, device model, Android version, app version</td>
+      <td>Sentry, on my behalf, in the EU</td>
+      <td>Deleted automatically after 90 days, or sooner when you ask</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How to ask</h2>
+<p>Use the developer contact details published with the app on its
+<a href="https://play.google.com/store/apps/details?id=com.tideline">Google Play listing</a>. Google
+requires those to be current, so they are the address that reaches me.</p>
+<p>Because there is no account, there is no name or email to look you up by. To let me find the right
+purchase record, include the <strong>Google Play order number</strong> from your purchase receipt —
+Google emails it at the time of purchase, and it also appears under Payments &amp; subscriptions in
+your Google account. Without it I can delete crash reports but cannot identify which purchase record
+is yours.</p>
+<p>Requests are actioned within 30 days, as the GDPR requires.</p>
+
+<h2>What I cannot delete</h2>
+<p>Google is the merchant for anything bought through Google Play, and Google keeps its own record of
+the transaction for tax and accounting reasons. That record is Google's, not mine, and is governed by
+<a href="https://policies.google.com/privacy">Google's privacy policy</a> — deleting my copy does not
+remove theirs, and I have no way to make it.</p>
+
+<footer>
+  Tideline &middot; Zoltan Demant &middot; <a href="../">Privacy policy</a>
+</footer>
+
+</body>
+</html>
