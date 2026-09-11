@@ -1,5 +1,4 @@
-# tideline-privacy
+# Tideline privacy policy
 
-The privacy policy for [Tideline](https://play.google.com/store/apps/details?id=com.tideline), served by GitHub Pages at <https://zoltish.github.io/tideline-privacy/>.
-
-This repository is public because Google Play requires the policy to be reachable at a public URL without a login. It holds one page and nothing else — the app itself lives elsewhere.
+Moved to https://zoltish.github.io/privacy/?app=tideline — the source is in the zoltish.github.io repository (`apps.js`).
+This repository only redirects, so links already given to Google Play keep working.
